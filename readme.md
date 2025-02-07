@@ -130,6 +130,7 @@ Les contributions sont les bienvenues pour améliorer le projet :
 - **Optimisation des performances**
 
 Me contacter :) christophe.coniglio@gmail.com
+
 ---
 
 
