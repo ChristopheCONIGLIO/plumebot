@@ -55,7 +55,7 @@ Le projet repose sur une pile technologique simple :
 - **Frontend** : HTML, CSS, JavaScript.
 - **Backend** : PHP avec une gestion astucieuse des limitations de stream.
 
-# COTS  
+### COTS  
 Le projet utilise trois composants logiciels prêts à l'emploi :  
 - **Accès externe via un CDN** : Font Awesome (version gratuite 5.x) pour afficher facilement des icônes.  
 - **Intégré dans les sources** : Bibliothèque `diff_match_patch` de Google pour le traitement des différences de texte ([lien GitHub](https://github.com/google/diff-match-patch)).  
