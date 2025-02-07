@@ -1,15 +1,21 @@
 # Plumebot_v2 - Documentation Open Source
 
-## Titre : Plumebot_v2 - « Un éditeur de texte simple et clair, Open Source propulsé par l’IA générative pour corriger et améliorer vos textes. »
+## Titre : Plumebot_v2 - 
+
+« Un éditeur de texte simple et clair, Open Source propulsé par l’IA générative pour corriger et améliorer vos textes. »
+
 **Version** : 2.0.0  
+
 **Date de publication** : 07 février 2025
+
 **Créateur** : Christophe CONIGLIO
+
 **Contact** : christophe.coniglio@gmail.com
 
 ---
 ## Image de l'application
 
-<img src="./archive/screenshot/img.png" alt="logo" width="800" />
+<img src="./archive/screenshot/img.png" alt="logo" width="1000" />
 
 ---
 
