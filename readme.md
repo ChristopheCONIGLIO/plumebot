@@ -7,6 +7,11 @@
 **Contact** : christophe.coniglio@gmail.com
 
 ---
+## Image de l'application
+
+<img src="./archive/screeshot/img.png" alt="logo" width="200" />
+
+---
 
 ## Licence
 
