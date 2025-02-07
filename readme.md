@@ -129,11 +129,7 @@ Les contributions sont les bienvenues pour améliorer le projet :
 - **Correction de bugs**
 - **Optimisation des performances**
 
-Pour participer :
-1. Forkez le projet.
-2. Créez une branche pour vos modifications.
-3. Soumettez une pull request.
-
+Me contacter :) christophe.coniglio@gmail.com
 ---
 
 
