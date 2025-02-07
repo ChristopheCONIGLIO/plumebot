@@ -32,7 +32,7 @@ Plumebot_v2 est un correcteur orthographique et grammatical alimenté par l'IA g
 
 Information : L'ouverture de ce projet en open source a pour objectif de favoriser la collaboration en vue d'industrialiser et d'améliorer ce POC. Il est important de noter que le projet n'est pas encore industrialisé et que son maintien reste complexe. Son but principal est de démontrer une preuve de concept simple.
 
-La version 2 propose deux nouvelles fonctionnalités majeures :
+La version _2 propose deux nouvelles fonctionnalités majeures :
 - Une interaction améliorée avec un éditeur de texte unique où le texte est écrit et corrigé en même temps.
 - Un panneau permettant de sauvegarder et de reprendre tous les textes écrits.
 
