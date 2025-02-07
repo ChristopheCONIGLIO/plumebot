@@ -1,3 +1,4 @@
+<img src="./archive/screenshot/title.png" alt="logo" width="400" />
 # Plumebot_v2 - Documentation Open Source
 
 ## Titre : Plumebot_v2 - 
