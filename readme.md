@@ -1,7 +1,6 @@
 <img src="./archive/screenshot/title.png" alt="logo" width="400" />
-# Plumebot_v2 - Documentation Open Source
 
-## Titre : Plumebot_v2 - 
+## Titre : Plumebot_v2 - Documentation Open Source
 
 « Un éditeur de texte simple et clair, Open Source propulsé par l’IA générative pour corriger et améliorer vos textes. »
 
