@@ -1,0 +1,63 @@
+
+
+#prelongBarOutils {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 41px;
+    max-width: var(--longeur-general);
+    margin: auto;
+  }
+#preBarreOutilG,
+#preBarreOutilD {
+  width: 100%;
+  height: 100%;
+  background-color: var(--couleur-general);
+  border : none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+}
+#pretextBarreOutils{
+  float: right;
+  color: white;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+#prelongBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 400px;
+  max-width: var(--longeur-general);
+  margin: auto;
+}
+
+.preclass_textOutPut,
+iframe {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border : none;
+  font-family: 'Poppins', sans-serif;
+  overflow:auto;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #cbcbcb;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px 0px rgba(78, 84, 174, 0.3);
+}
+#baliseCode{
+  height: auto;
+}
+
+

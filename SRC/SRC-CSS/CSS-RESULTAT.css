@@ -1,0 +1,141 @@
+#longBar{
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 30px;
+  padding-right: 30px; 
+
+}
+
+
+.class_textOutPutType{
+  display: block;
+  margin: auto;
+  max-width: var(--longeur-general);
+  
+  line-height: 1.1;
+  font-size: 18px;
+  color: rgb(82, 82, 82);
+  color : #6e6e6e;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-left: 18px;
+  font-weight: bold;
+}
+
+
+.class_textOutPut {
+  display: block;
+  margin: auto;
+  max-width: var(--longeur-general);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px; 
+  margin-top: 0px;
+  padding-bottom: 20px; 
+  /*line-height: 1.1;*/
+  font-size: 18px;
+  color: rgb(53, 53, 53);
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  background-color: rgb(244, 244, 244);
+  box-sizing: border-box;
+  border-radius: 0px 0px 30px 30px;
+  user-select: text;
+}
+.class_textOutPutSelected {
+  color: black;
+  /*border: 3px dashed #8c90ad;*/
+}
+.class_textOutPut strong {
+  color: var(--couleur-general);
+}
+
+#textOuputWarning{
+  display: block;
+  margin: auto;
+  max-width: var(--longeur-general);
+  text-align: left;
+  color: rgb(101, 101, 101);
+  padding-left: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: -0px;
+  margin-bottom: -7px;
+}
+
+
+
+#petitBar{
+  background-color: rgb(244, 244, 244);
+  display: block;
+  margin: auto;
+  max-width: var(--longeur-general);
+  box-sizing: border-box;
+  padding-top: 18px;
+  border-radius: 30px 30px 0px 0px;
+  padding-bottom: 30px;
+}
+
+
+/*
+généré en code
+*/
+.outputInfo{
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 16px;
+  margin-top: 2px;
+  font-size: 14px;
+  background: linear-gradient(to right, #59c2cf, #3d75db, #7d4beb);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  
+}
+
+
+
+
+    /* bouton copier */
+    .copy-button {
+      float: left;
+      background-color: #f6f6f6;;
+      color: black;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Poppins', sans-serif;
+      
+      margin-left: 16px;
+      margin-top: 2px;
+      font-size: 14px;
+      background: linear-gradient(to right, #59c2cf, #3d75db, #7d4beb);
+      color: transparent;
+      -webkit-background-clip: text; 
+      background-clip: text; 
+    }
+    .copy-buttonRecopie {
+      float: left;
+      background-color: #f6f6f6;;
+      color: black;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Poppins', sans-serif;
+      
+      margin-left: 0px;
+      margin-top: 2px;
+      font-size: 14px;
+      background: linear-gradient(to right, #59c2cf, #3d75db, #7d4beb);
+      color: transparent;
+      -webkit-background-clip: text; 
+      background-clip: text; 
+    }
+
+    
+   
