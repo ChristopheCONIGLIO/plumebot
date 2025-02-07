@@ -97,7 +97,7 @@ Le code actuel constitue une preuve de concept. Une ouverture en open source per
 
 ## Liste des versions
 
-- **2.0.0** : Plumebot devient open source.  
+- **2.0.0** : Nouvelles fonctionnalités et Plumebot devient open source.  
 - **1.0.0** : Non disponible en open source, une démo est accessible ici : [https://plumebot.com/pbv1/](https://plumebot.com/pbv1/)  
 
 
