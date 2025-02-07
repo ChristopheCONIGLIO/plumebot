@@ -9,7 +9,7 @@
 ---
 ## Image de l'application
 
-<img src="./archive/screenshot/img.png" alt="logo" width="200" />
+<img src="./archive/screenshot/img.png" alt="logo" width="800" />
 
 ---
 
