@@ -82,19 +82,25 @@
         <a id="plumebotTop"></a>
         <div class="preToolbarUp0">
           <div class="toolbarUp0">
-            <span id="accrochePetitArcencielN"> <i class="fas fa-feather"></i> PlumeBot_v2</span>
+            <span id="accrochePetitArcencielN"> <i class="fas fa-feather"></i> PlumeBot_v2 : Editeur de texte</span>
             <div id="intro">
               <div id="accroche">
-                « Un <span id="accrochePetitArcenciel">éditeur de texte</span> simple et clair, <span id="accrochePetitArcenciel">Open Source</span> <br> propulsé par <span id="accrochePetitArcenciel">l’IA générative</span> pour <span id="accrochePetitArcenciel">corriger</span> et <span id="accrochePetitArcenciel">améliorer</span> vos textes. »
+                « <!--Un <span id="accrochePetitArcenciel">éditeur de texte</span> simple<span id="accrochePetitArcenciel">Open Source</span> <br>--> Dopé à <span id="accrochePetitArcenciel">l’IA générative</span> pour <span id="accrochePetitArcenciel">corriger</span> et <span id="accrochePetitArcenciel">améliorer</span> vos textes. »
               </div>
             </div>
+            <a id="githubancre" href="https://github.com/ChristopheCONIGLIO/plumebot" target="_blank" class="github-link">
+              <div class="github-content">
+              <i class="fas fa-code"></i>
+                Plumebot est Open Source, rendez-vous sur GitHub !
+              </div>
+            </a>
           </div>
         </div>
         <div class="preToolbarUp2">
           <div class="toolbarUp2">
             <div id="barreOutils">
               <button type="button" id="btForm2">
-                <i class="fas fa-times" color="#2c2f5d" title="Supprimer"></i> <span></span>
+                <i class="fas fa-times" color="#2c2f5d" title="Supprimer"></i> <span><br></span>
               </button>
               <button type="button" id="btForm1">
                 <i class="far fa-copy" color="#2c2f5d" title="Copier"></i> <span></span>

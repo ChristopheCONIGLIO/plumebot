@@ -22,6 +22,12 @@ document.getElementById("btForm1").addEventListener('click', (event) => {
     PlumeBot_CopyToClipboard(document.getElementById("input").innerText);
 });
 document.getElementById("btForm2").addEventListener('click', (event) => {
+    if( document.getElementById("input").innerHTML != ""  &&  document.getElementById("input").innerHTML != placeholder){
+        addEntry("7 "+document.getElementById("input").innerText.slice(0, 30),document.getElementById("input").innerHTML);
+        activity = 1;
+        addplacerOrder();
+    }
+    
     document.getElementById("input").innerHTML = ""; 
     document.getElementById("input").innerText = ""; 
     addplacerOrder();

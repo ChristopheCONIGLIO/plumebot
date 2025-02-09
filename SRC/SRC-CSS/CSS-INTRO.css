@@ -23,6 +23,8 @@
   #intro #accroche  {
     font-size: 14px;
     margin-top : 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 #intro #accrochePetit {
@@ -41,6 +43,9 @@
     font-size: 14px;
     margin-bottom: 2px;
   }
+  #intro  {
+    margin-top: 5px;
+  }
 }
 #accrochePetitArcenciel {
   background: linear-gradient(to right, rgba(90, 200, 250, 0.75), rgba(175, 82, 222, 0.45), rgba(255, 45, 85, 0.45), rgba(255, 149, 0, 0.75));
@@ -50,17 +55,20 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  border-bottom: 2px solid rgb(219, 219, 219);
+  border-bottom: 2px solid rgba(109, 152, 186, 0.2);
 }
 #accrochePetitArcencielN {
   background: linear-gradient(to right, rgba(90, 200, 250, 0.75), rgba(175, 82, 222, 0.45), rgba(255, 45, 85, 0.45), rgba(255, 149, 0, 0.75));
-  /*background: linear-gradient(to right, rgba(90, 200, 250, 0.83), rgba(175, 82, 222, 0.6), rgba(255, 45, 85, 0.6), rgba(255, 149, 0, 0.83));
-  */
   font-family: 'Poppins', sans-serif;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  font-size: min(5vw, 1.0em); 
 }
+
 
 #intro #explication {
   max-width: var(--longeur-general);
@@ -107,4 +115,31 @@
 }
 #intro #selector:focus {
   outline: none;
+}
+
+.github-link {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.65); /* Couleur bleue classique des liens */
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 3px;
+  background-color: rgba(40, 0, 198, 0.10);
+}
+
+.github-link:visited {
+  color: #6c757d; /* Couleur des liens visités */
+}
+
+.github-link:hover {
+  color: #606060; /* Couleur plus foncée au survol */
+  text-decoration: none;
+  background-color: rgba(40, 0, 198, 0.10);
+}
+
+.github-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }

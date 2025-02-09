@@ -13,9 +13,9 @@ function updateStorage() {
   if( data.length == 0 ){
     
     //
-    const astuce0 = `Astuces :                       <br><br> cliquer sur les astuces pour avoir des conseils d'utilisation sur le service Plumebot`;
-    const astuce1 = `#1 : "Corriger"                      <br><br> (cliquer sur la plume pour corriger ce texte)<br><br>Plumebot vous aide a corriger et azméliorer vos texte , écrivez votre texte puisquer lciquer surle bouton cirriger. Vous veré tou suite les fauts corriger et votre texte pluss clair et profésionnel !<br><br>Tester le mainteannt avec ce texte plien de faute"`;
-    const astuce2 = `#2 : "Options et Aides"                      <br><br>(cliquer sur la plume pour corriger ce texte)<br><br>Choisissez le mode « Améliorer » pour voir renforcer votre texte<BR><BR>Avec Plumebot, vous pouvez sélectionner le mode « Améliorrer » pour optenir un texte plus fluide et proféssionel.<br><br>
+    const astuce0 = `Comment ça marche ?                       <br><br> cliquer sur les astuces pour avoir des conseils d'utilisation sur le service Plumebot`;
+    const astuce1 = `"Corriger" votre texte                      <br><br> (cliquer sur la plume pour corriger ce texte)<br><br>Plumebot vous aide a corriger et azméliorer vos texte , écrivez votre texte puisquer lciquer surle bouton cirriger. Vous veré tou suite les fauts corriger et votre texte pluss clair et profésionnel !<br><br>Tester le mainteannt avec ce texte plien de faute"`;
+    const astuce2 = `"Améliorer" votre texte                      <br><br>(cliquer sur la plume pour corriger ce texte)<br><br>Choisissez le mode « Améliorer » pour voir renforcer votre texte<BR><BR>Avec Plumebot, vous pouvez sélectionner le mode « Améliorrer » pour optenir un texte plus fluide et proféssionel.<br><br>
 Plumebot mettra en surblirance et surligné les element mdoifié, pour que vous puissiez voir exactement les ajustement proposer.<br><br>
 Esséyer dès maintenan pour rendre vos texte impeccable !`; 
     

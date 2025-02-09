@@ -4,7 +4,7 @@
 
 « Un éditeur de texte simple et clair, Open Source propulsé par l’IA générative pour corriger et améliorer vos textes. »
 
-**Version** : 2.0.0  
+**Version** : 2.0.1  
 
 **Date de publication** : 07 février 2025
 
@@ -28,11 +28,11 @@ This work is licensed under the Creative Commons Zero (CC0) License. You can cop
 ---
 
 ## Description
-Plumebot_v2 est un correcteur orthographique et grammatical alimenté par l'IA générative (gpt4o ici). Le projet propose une interface moderne permettant de saisir du texte, visualiser les corrections effectuées et conserver un historique des modifications pour un retour interactif sur les anciennes saisies.
+Plumebot_v2 est un correcteur orthographique et grammatical alimenté par l'IA générative (gpt4 ici). Le projet propose une interface moderne permettant de saisir du texte, visualiser les corrections effectuées et conserver un historique des modifications pour un retour interactif sur les anciennes saisies.
 
-Information : L'ouverture de ce projet en open source a pour objectif de favoriser la collaboration en vue d'industrialiser et d'améliorer ce POC. Il est important de noter que le projet n'est pas encore industrialisé et que son maintien reste complexe. Son but principal est de démontrer une preuve de concept simple.
+Quel est le niveau d'avancement du projet ? L'ouverture en open source de ce projet a pour objectif de favoriser la collaboration en vue d'industrialiser et d'améliorer ce POC. Il est important de noter que le projet n'est pas industrialisé et que son maintien reste complexe. Son but principal est de démontrer une preuve de concept et de proposer une alternative à l'existant.
 
-La version "2" propose deux nouvelles fonctionnalités majeures :
+Pourquoi Plumebit est en v2 ? La version "2" propose deux nouvelles fonctionnalités majeures :
 - Une interaction améliorée avec un éditeur de texte unique où le texte est écrit et corrigé en même temps.
 - Un panneau permettant de sauvegarder et de reprendre tous les textes écrits.
 
@@ -42,13 +42,13 @@ La version "2" propose deux nouvelles fonctionnalités majeures :
 - **Correction orthographique et grammaticale en temps réel** : Visualisation des différences entre le texte original et le texte corrigé.
 - **Interface utilisateur moderne** : Éditeur de texte centré et ergonomique.
 - **Historique interactif** : Panneau permettant de revenir rapidement sur les anciens textes corrigés.
-- **Compatibilité étendue PHP** : Simulation de stream sur des environnements où cette fonctionnalité n'est pas activée.
+- **Compatibilité étendue PHP** : Simulation du "stream" en php sur des environnements où cette fonctionnalité n'est pas activée.
 
 ---
 
 ## Architecture Fonctionnelle
-1. **Interface utilisateur** : Conçue avec HTML et CSS pour offrir une expérience moderne et intuitive.
-2. **Correction et suivi** : Implémentation de `diff_match_patch` pour identifier les différences entre le texte d’entrée et les corrections.
+1. **Interface utilisateur** : Responsive, conçue avec HTML et CSS pour offrir une expérience moderne (plutot minimalist) et intuitive.
+2. **Correction et suivi** : Implémentation de `diff_match_patch` pour identifier les différences entre le texte d’entrée et les corrections via une visualisation adapté
 3. **Historique des modifications** : Panneau interactif affichant les premiers mots des anciens textes pour faciliter la navigation.
 4. **Gestion de flux en environnement limité** : Hack PHP permettant la simulation de stream.
 
@@ -87,16 +87,17 @@ Le code actuel constitue une preuve de concept. Une ouverture en open source per
      - Panneau d’historique interactif.
 
 2. **Optimisation de l’affichage** :
-   - Gestion adaptative des éléments affichés pour éviter une surcharge de `localStorage`.
+   - Gestion adaptative des éléments enregistrés pour éviter une surcharge de `localStorage`.
    - Chargement dynamique des entrées d’historique.
 
-3. **Amélioration des performances** :
-   - Réduction de la consommation de ressources lors de la manipulation des différences.
+3. **Sécurisation** :
+   - La partie API avec le php n'est pas sécuriser c'est un point critique si l'application se développe
 
 ---
 
 ## Liste des versions
 
+- **2.0.1** : Modifications mineures + ajout du bouton "aller sur github" 
 - **2.0.0** : Nouvelles fonctionnalités et Plumebot devient open source.  
 - **1.0.0** : Non disponible en open source, une démo est accessible ici : [https://plumebot.com/pbv1/](https://plumebot.com/pbv1/)  
 

@@ -80,15 +80,8 @@ window.addEventListener('load', adjustPanelLayout);
 const buttonPanelNew = document.getElementById('bt-panel-new');
 buttonPanelNew.addEventListener('click', () => {
   if( nbcounter >= 1 ){
-    //addEntry("<div id='panel-icon'><i class='fas fa-plus'></i></div> "+document.getElementById("input").innerText.slice(0, 30),document.getElementById("input").innerHTML);
     addEntry("5 "+document.getElementById("input").innerText.slice(0, 30),document.getElementById("input").innerHTML);
     activity = 1;
-    
-    /*
-    document.getElementById("input").innerHTML = ""; 
-    document.getElementById("input").innerText = ""; 
-    */
     addplacerOrder();
-    //formulaireChanged();
   }
 });
