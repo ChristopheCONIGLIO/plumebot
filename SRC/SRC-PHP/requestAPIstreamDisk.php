@@ -42,7 +42,7 @@ $ch = curl_init();
 $url = "https://api.openai.com/v1/chat/completions";
 $headers = array(
     "Content-Type: application/json",
-    "Authorization: Bearer sk-qVobRLst47sgFc92GVPVT3B"
+    "Authorization: Bearer sk-votre_cle_openai"
 );
 
 $finalResponse = '';
