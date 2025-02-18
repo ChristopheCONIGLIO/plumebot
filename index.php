@@ -55,6 +55,8 @@
     :root {
       --longeur-general: 1250px;
       --couleur-general: #4b5fe0;
+      --couleur-border:rgb(232, 232, 232);
+      --couleur-panel:rgb(223, 223, 223);
     }
     body {
       background-color: white;
@@ -75,17 +77,19 @@
       MENU_PB_generateMenu("../");
     ?>
     <div class="post-body">
+      
       <div class="left-panel" id="left-panel">
+        
         <div id="left-panel-ctn"></div>
       </div>
       <div class="right-panel">
         <a id="plumebotTop"></a>
         <div class="preToolbarUp0">
           <div class="toolbarUp0">
-            <span id="accrochePetitArcencielN"> <i class="fas fa-feather"></i> PlumeBot_v2 : Editeur de texte</span>
+            <span id="accrochePetitArcencielN"> <i class="fas fa-feather"></i> PlumeBot : Éditeur intelligent</span>
             <div id="intro">
               <div id="accroche">
-                « <!--Un <span id="accrochePetitArcenciel">éditeur de texte</span> simple<span id="accrochePetitArcenciel">Open Source</span> <br>--> Dopé à <span id="accrochePetitArcenciel">l’IA générative</span> pour <span id="accrochePetitArcenciel">corriger</span> et <span id="accrochePetitArcenciel">améliorer</span> vos textes. »
+                « <!--Un <span id="accrochePetitArcenciel">éditeur de texte</span> simple<span id="accrochePetitArcenciel">Open Source</span> <br>--> Équipé de <span id="accrochePetitArcenciel">l’IA générative</span> pour <span id="accrochePetitArcenciel">corriger</span> et <span id="accrochePetitArcenciel">améliorer</span> vos textes. »
               </div>
             </div>
             <a id="githubancre" href="https://github.com/ChristopheCONIGLIO/plumebot" target="_blank" class="github-link">
@@ -100,16 +104,16 @@
           <div class="toolbarUp2">
             <div id="barreOutils">
               <button type="button" id="btForm2">
-                <i class="fas fa-times" color="#2c2f5d" title="Supprimer"></i> <span><br></span>
+                <i class="fas fa-plus" color="#2c2f5d" title="Supprimer"></i> <span>Nouveau</span>
               </button>
               <button type="button" id="btForm1">
-                <i class="far fa-copy" color="#2c2f5d" title="Copier"></i> <span></span>
+                <i class="far fa-copy" color="#2c2f5d" title="Copier"></i> <span>Copier</span>
               </button>
               <button type="button" id="bt-panel-new" title="Sauvegarder">
-                <i class="far fa-save" color="#2c2f5d"></i> <span></span>
+                <i class="far fa-save" color="#2c2f5d"></i> <span>Enregistrer</span>
               </button>
               <button type="button" id="bt-panel-journal">
-                <i class="far fa-compass" color="#2c2f5d" title="Journal"></i> <span></span>
+                <i class="far fa-compass" color="#2c2f5d" title="Journal"></i> <span>Journal</span>
               </button>
               <button type="button" id="bt2" onclick="sendPost()">
                 <i class="fas fa-feather"></i>
@@ -124,7 +128,7 @@
         <div id="form-container">
           <div id="formulaire">
             <div id="counter">0/2000</div>
-            <div id="input" class="placeholder" contenteditable="true">Écrivez ou copiez votre texte...</div>
+            <div id="input" class="placeholder" contenteditable="true">Écrivez ou copiez votre texte... puis cliquez sur la plume</div>
           </div>
         </div>
         <a name="plumebotAide"></a>

@@ -15,13 +15,15 @@ if (!file_exists($fileNameWithKey)) {
 
 if ($mode == 1) {
     $temperature = 0.2;
-    $message = "Corrige le texte suivant sans changer l'ordre des mots et en respectant tous les sauts de ligne: " . $message;
+    $message = "renvoi le texte corrigé sans aucun détails suplémentaire: " . $message;
 }
+
 if ($mode == 2) {
-    $temperature = 0.5;
-    $message = 'Reformulez le texte suivant en utilisant des synonymes et des structures de phrases alternatives, tout en veillant à ce que le sens global reste le même. Essayez de minimiser tout changement substantiel dans le contenu et la tonalité : ' . $message;
+    $temperature = 0.4;
+    $message = "Tu es un correcteur et reformulateur de texte avancé. Corrige les fautes d'orthographe et de grammaire, puis reformule en utilisant des synonymes et des structures alternatives tout en conservant le sens et la tonalité du texte. Ne modifie pas les informations essentielles et ne change pas excessivement le style. Rends uniquement le texte complet reformulé, sans ajout ni suppression injustifiée :\n\n" . $message;
 }
-if ($mode == 3) {
+
+/*if ($mode == 3) {
     $temperature = 0.5;
     $message = 'Structure le texte avec des bullet point et des grande sections si besoin en utilisant des synonymes et des structures de phrases alternatives, tout en veillant à ce que le sens global reste le même. Essayez de minimiser tout changement substantiel dans le contenu et la tonalité : ' . $message;
 }
@@ -32,7 +34,7 @@ if ($mode == 4) {
 if ($mode == 5) {
     $temperature = 0.5;
     $message = 'Reformulez le texte en mode tweet avec tous ce qui va bien genre tag etc... respecter les 280 caractères en utilisant des synonymes et des structures de phrases alternatives, tout en veillant à ce que le sens global reste le même. Essayez de minimiser tout changement substantiel dans le contenu et la tonalité : ' . $message;
-}
+}*/
 
 $objFichKey = fopen($fileNameWithKey, "a");
 
@@ -40,7 +42,7 @@ $ch = curl_init();
 $url = "https://api.openai.com/v1/chat/completions";
 $headers = array(
     "Content-Type: application/json",
-    "Authorization: Bearer sk-qVobRLst47sgFc92GVPVT"
+    "Authorization: Bearer sk-qVobRLst47sgFc92GVPVT3B"
 );
 
 $finalResponse = '';

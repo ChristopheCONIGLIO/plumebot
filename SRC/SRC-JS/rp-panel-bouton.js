@@ -5,6 +5,7 @@
 //
 var positionPanel = 1; // 1 = open 0 = close
 const dimMaxPanel = 1100;
+const dimWidthPanel = 255;//px
 const leftPanel = document.getElementById('left-panel');
 const rightPanel = document.querySelector('.right-panel');
 const buttonPanelDecrease = document.getElementById('bt-panel-journal');
@@ -47,8 +48,8 @@ function adjustPanelLayoutDecrease() {
 function adjustPanelLayoutIncrease() {
   if (window.innerWidth < dimMaxPanel) leftPanel.style.position = 'absolute';
   else                          leftPanel.style.position = 'relative';
-  if (window.innerWidth >= dimMaxPanel)   leftPanel.style.width = '280px';
-  else                                    leftPanel.style.width = window.innerWidth+"px";
+  /*if (window.innerWidth >= dimMaxPanel) */  leftPanel.style.width = dimWidthPanel+'px';
+  /*else                                    leftPanel.style.width = window.innerWidth+"px";*/
 
   leftPanel.style.transition = 'width 0.5s ease-in-out';
   rightPanel.style.transition = 'width 0.5s ease-in-out';

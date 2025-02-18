@@ -22,15 +22,15 @@
   padding: 0;
   padding-left: 30px;
   padding-right: 30px;
-  border: solid 1px rgb(234, 236, 240);
-  border-left:solid 1px rgb(234, 236, 240) ;
-  border-right:solid 1px rgb(234, 236, 240) ;
+  border: solid 1px var(--couleur-border);
+  border-left:solid 1px var(--couleur-border);
+  border-right:solid 1px var(--couleur-border);
   /*box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);*/
   box-shadow: 12px 0 12px -12px rgba(0, 0, 0, 0.05), -12px 0 12px -12px rgba(0, 0, 0, 0.05);
   margin-top: -10px;
   background-color: white;
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
   /*padding-top: 10px;*/
   /*border-radius: 0px 0px 16px 16px;*/
 }
@@ -116,13 +116,13 @@
   resize: vertical;
   height: 850px;
   font-size: 16px;
-  color: rgb(109, 109, 109);
+  color: rgb(74, 74, 74);
   font-family: 'Poppins', sans-serif;
   /*text-align: justify;*/
   text-align: left;
   width: 100%;
   padding: 30px;
-  padding-top: 24px;
+  padding-top: 16px;
   margin-bottom: 3px;
   box-sizing: border-box;
   border-width: 0px 0px 0px 0px;

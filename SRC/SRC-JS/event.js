@@ -45,7 +45,7 @@ document.addEventListener('keydown', function(event) {
 
 
 var nbcounter = 0;
-const placeholder = "Écrivez ou copiez votre texte...";
+const placeholder = "Écrivez ou copiez votre texte... puis cliquez sur la plume";
 document.getElementById("input").addEventListener('blur', () => {
   addplacerOrder();
 });
@@ -60,6 +60,9 @@ function addplacerOrder(){
 
 function formulaireChanged(nameevent) {
   
+  if(document.getElementById("input").innerText.trim().length <= 1){ //pour catcher le ctrl A + la premeire lettre
+    activity = 1; //reset le panel
+  }
   if (document.getElementById("input").innerText.trim() === placeholder) {
       document.getElementById("input").innerHTML = ""; 
       document.getElementById("input").classList.remove("placeholder");
@@ -108,7 +111,14 @@ form.addEventListener('contextmenu', (event) => { formulaireChanged(); });
 form.addEventListener("paste", (event) => {
   event.preventDefault();
   const text = (event.clipboardData || window.clipboardData).getData("text");
+  /*const selection = window.getSelection();
+  const input = event.target;
+  if (input.value.length === input.selectionEnd - input.selectionStart) {
+    //TODO
+  }*/
+  activity = 1;
   document.execCommand("insertText", false, text);
   formulaireChanged();
 });
+
 

@@ -6,7 +6,47 @@
     align-items: center; /* Aligne verticalement le texte et le bouton */
     width: 100%;
     margin-bottom: 10px;
-    
+    margin: 0;
+    padding: 0;
+
+}
+.section2 {
+    display: flex;
+    justify-content: space-between; /* Espacement entre texte et bouton */
+    align-items: center; /* Aligne verticalement le texte et le bouton */
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 0;
+    background-color: rgb(236, 242, 244);
+    background-color: rgb(247, 249, 252);
+
+    background-color: rgb(240, 246, 255);
+    background-color: rgb(247, 250, 255);
+    background-color: rgb(240, 246, 255);
+
+    background-color: rgb(242, 242, 242);
+    background-color: transparent;
+    /*margin-bottom: 20px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*border-top: solid 2px rgb(184, 212, 255);*/
+    /*border-bottom: solid 2px var(--couleur-panel);*/
+}
+.section3 {
+    display: flex;
+    justify-content: space-between; /* Espacement entre texte et bouton */
+    align-items: center; /* Aligne verticalement le texte et le bouton */
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 0;
+    background-color: rgb(236, 242, 244);
+    background-color: rgb(247, 249, 252);
+
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
 }
 
 .text-left-bold {
@@ -20,12 +60,12 @@
     background-color: none;
     margin: 0;
     padding: 0;
-    font-weight: 500;
+    font-weight: 300;
     padding-top: 30px;
     user-select: none;
     /*padding-left: 45px;*/
     
-    color: rgb(28, 28, 28);
+    color: rgb(178, 178, 178);
     display: flex; /* Permet de centrer avec flexbox */
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
@@ -40,33 +80,75 @@
     color: rgb(50, 152, 255);
     color: rgb(152, 170, 200);
     font-weight: 500;
-    font-size: 16px;
     width: 18px;
-    margin-left: 3px;
+    margin-left: 9.5px;
+    margin-right: -5px;
     transform: translateY(1px);
+    font-weight: 300;
+    font-size: 11px;
+    color: var(--couleur-panel);
+    margin-left: -1px;/*ici*/
+
+    
 }
 #panel-iconL{
     display: inline-block;
-    color: rgb(50, 152, 255);
-    color: rgb(196, 218, 255);
+    color: var(--couleur-panel);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     width: 18px;
-    margin-left: 24px;
-    margin-right: 6px;
+    margin-left: 4px;
+    margin-right: 0px;
+    margin-left: 0px;/*ici*/
+    border-left: solid 2px var(--couleur-panel);
+    padding-left: 10px;
     transform: translateY(1px);
+    margin-top: 0;
+
 }
-#panel-iconL2{
+#panel-iconH{
     display: inline-block;
     color: rgb(50, 152, 255);
-    color: rgb(196, 218, 255);
+    color: var(--couleur-panel);
+    font-weight: 500;
+    font-size: 14px;
+    width: 18px;
+    margin-right: 0px;
+    margin-left: -10px;/*ici*/
+    padding-left: 5px;
+    transform: translateY(1px);
+    margin-top: 0;
+
+}
+#panel-iconL2{/* 3 petit points */
+    display: inline-block;
+    color: rgb(50, 152, 255);
+    color: var(--couleur-panel);
     font-weight: 500;
     font-size: 10px;
     width: 18px;
-    margin-left: 30px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: -5.5px;
     padding-right: 0;
+    /*transform: translateY(1px);*/
+    margin-left: 0px;/*ici*/
+    border-left: solid 2px var(--couleur-panel);
+    padding-left: 15px;
+    /*padding-top: 10px;*/
+    margin-bottom: 0px;
+}
+#panel-iconL3{
+    display: inline-block;
+    color: rgb(50, 152, 255);
+    color: var(--couleur-panel);
+    font-weight: 500;
+    font-size: 16px;
+    width: 18px;
+    margin-right: -1px;
     transform: translateY(1px);
+    margin-left: 0px;/*ici*/
+    border-left: solid 2px var(--couleur-panel);
+    padding-left: 10px;
 }
 
 .text-left {
@@ -74,9 +156,10 @@
     overflow: hidden;
     text-overflow: ellipsis; /* Ajoute des points de suspension "..." pour indiquer un dépassement */
     flex: 1;
-    font-size: 13px;
+    font-size: 12px;/*12*/
     color: rgb(104, 180, 255);
     color: rgb(59, 59, 59);
+    color: rgb(99, 99, 99);
     font-family: 'Poppins', sans-serif;
     border: none;
     margin: 0;
@@ -87,14 +170,23 @@
     padding-top: 0px;
     padding-left: 12px;
     background-color: transparent;
+    margin: 0;
+    /*padding-top: 5px;
+    border-top: solid 2px rgb(224, 236, 255);*/
 }
 .text-leftS{
-    font-size: 12px;
+    font-size: 12px;/*12*/
     font-weight:300;
     color: rgb(143, 153, 173);
+    color : var(--couleur-panel);
+    color: rgb(170, 170, 170);
+    margin: 0;
+    background-color: transparent;
+    border : none;
+
 } 
 .text-left:hover {
-    color: rgb(50, 50, 50); /* Couleur un peu plus foncée */
+    color: rgb(0, 0, 0); /* Couleur un peu plus foncée */
     font-weight: 500;  
 }
 
@@ -114,6 +206,7 @@
     color: rgb(220, 220, 220);
     padding-right: 12px;
     background-color: transparent;
+    font-size: 12px;
 }
 .btn-right:hover {
     color: rgb(50, 50, 50); /* Couleur un peu plus foncée */ 

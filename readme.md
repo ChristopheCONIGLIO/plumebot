@@ -4,7 +4,7 @@
 
 « Un éditeur de texte simple et clair, Open Source propulsé par l’IA générative pour corriger et améliorer vos textes. »
 
-**Version** : 2.0.1  
+**Version** : 2.0.2  
 
 **Date de publication** : 07 février 2025
 
@@ -99,8 +99,9 @@ Le code actuel constitue une preuve de concept. Une ouverture en open source per
 
 ## Liste des versions
 
+- **2.0.2** : 18/02/2025 Modifications graphiques panel et boutons
 - **2.0.1** : Modifications mineures + ajout du bouton "aller sur github" 
-- **2.0.0** : Nouvelles fonctionnalités et Plumebot devient open source.  
+- **2.0.0** : 07/02/2025 Nouvelles fonctionnalités et Plumebot devient open source.  
 - **1.0.0** : Non disponible en open source, une démo est accessible ici : [https://plumebot.com/pbv1/](https://plumebot.com/pbv1/)  
 
 

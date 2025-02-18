@@ -11,7 +11,7 @@
   white-space: nowrap; 
   padding: 0;
   background-color: rgb(230, 231, 232);
-  border-radius: 12px;
+  border-radius: 80px;
   /*box-shadow: 0 0px 3px rgba(100, 100, 100, 0.2);*/
   margin-right: 5px;
   margin-top: 0px;
@@ -40,10 +40,10 @@
 
 .tab {
   /*border: 1px solid rgb(215, 215, 215);*/
-  border-radius: 12px;
+  border-radius: 120px;
   text-align: center;
   font-size: 12px;
-  color: rgb(137, 137, 140);
+  color: rgb(174, 174, 174);
   cursor: pointer;
   margin: 0;
   padding: 6px 6px 3px 6px;
@@ -63,14 +63,18 @@
   /*background-color: rgb(243, 243, 243); */
   color: rgb(50, 152, 255);
   color: black;
+  
 }
 
 .selectedTab {
   color: rgb(50, 152, 255);
-  color: black;
+
+  color : rgb(90, 90, 90);
+  /*color: black;*/
   /*border: 1px solid rgb(50, 152, 255);*//*102, 112, 133);*/
   background-color: white;
   border: 3px solid rgb(230, 231, 232);
+  
   
   /*font-weight: bold;*/
 }

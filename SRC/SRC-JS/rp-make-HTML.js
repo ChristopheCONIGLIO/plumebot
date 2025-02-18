@@ -20,8 +20,18 @@
     // Fonction pour ajouter une section avec l'id et le texte
     function addEntrySection(id, text) {
       const section = document.createElement("div");
-      section.classList.add("section");
-      /*section.style.backgroundColor = "rgb(255, 0, 0)";*/
+    
+
+      if( text.charAt(0) == 0)   section.classList.add("section");
+      if( text.charAt(0) == 6)   section.classList.add("section3");
+      if( text.charAt(0) == 1)   section.classList.add("section2");
+      if( text.charAt(0) == 2)   section.classList.add("section");
+      if( text.charAt(0) == 3)   section.classList.add("section");
+      if( text.charAt(0) == 4)   section.classList.add("section");
+      if( text.charAt(0) == 5)   section.classList.add("section");
+      if( text.charAt(0) == 7)   section.classList.add("section");
+    
+
 
       const buttonText = document.createElement("button");
       
@@ -33,18 +43,18 @@
       if( text.charAt(0) == 2)  buttonText.classList.add("text-left", "text-leftS");
       if( text.charAt(0) == 3)  buttonText.classList.add("text-left", "text-leftS");
       if( text.charAt(0) == 4)  buttonText.classList.add("text-left", "text-leftS");
-      if( text.charAt(0) == 5)  buttonText.classList.add("text-left");
-      if( text.charAt(0) == 7)  buttonText.classList.add("text-left");
+      if( text.charAt(0) == 5)  buttonText.classList.add("text-left", "text-leftS");
+      if( text.charAt(0) == 7)  buttonText.classList.add("text-left", "text-leftS");
       
-      if( text.charAt(0) == 0)  buttonText.innerHTML += "<div id='panel-iconS'><i class='fas fa-atom'></i></div> ";
-      if( text.charAt(0) == 6)  buttonText.innerHTML += "<div id='panel-iconL'><i class='far fa-question-circle'></i></div> ";
-      if( text.charAt(0) == 1)  buttonText.innerHTML += "<div id='panel-iconS'><i class='fas fa-feather'></i></div> ";//far fa-dot-circle
-      if( text.charAt(0) == 2)  buttonText.innerHTML += "<div id='panel-iconL2'><i class='fas fa-ellipsis-v'></i></div> ";
-      if( text.charAt(0) == 3)  buttonText.innerHTML += "<div id='panel-iconL'><i class='far fa-check-circle'></i></div> ";//
-      if( text.charAt(0) == 4)  buttonText.innerHTML += "<div id='panel-iconL'><i class='far fa-check-circle'></i></div> ";//
-      if( text.charAt(0) == 5)  buttonText.innerHTML += "<div id='panel-iconS'><i class='far fa-save'></i></div> ";
-      if( text.charAt(0) == 7)  buttonText.innerHTML += "<div id='panel-iconS'><i class='fas fa-times'></i></div> ";
-      buttonText.innerHTML += text.slice(2);
+      if( text.charAt(0) == 0)  buttonText.innerHTML += "<div id='panel-iconS'><i class='fas fa-atom'></i></div> "+text.slice(2)+"";  
+      if( text.charAt(0) == 6)  buttonText.innerHTML += "<div id='panel-iconH'><i class='far fa-question-circle'></i></div> "+text.slice(2)+"";
+      if( text.charAt(0) == 1)  buttonText.innerHTML += "<div id='panel-iconS'><i class='fas fa-ellipsis-v'></i></div> "+text.slice(2)+"";
+      if( text.charAt(0) == 2)  buttonText.innerHTML += "<div id='panel-iconL2'><i class='fas fa-ellipsis-v'></i></div> Modification";
+      if( text.charAt(0) == 3)  buttonText.innerHTML += "<div id='panel-iconL'><i class='far fa-check-circle'></i></div> Corrigé";
+      if( text.charAt(0) == 4)  buttonText.innerHTML += "<div id='panel-iconL'><i class='far fa-check-circle'></i></div> Amélioré";
+      if( text.charAt(0) == 5)  buttonText.innerHTML += "<div id='panel-iconL3'><i class='far fa-save'></i></div> Enregistré";  
+      if( text.charAt(0) == 7)  buttonText.innerHTML += "<div id='panel-iconL3'><i class='far fa-save'></i></div> Enregistré";
+      
 
       // Ajouter un événement au bouton texte
       buttonText.addEventListener("click", () => {
