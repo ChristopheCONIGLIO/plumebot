@@ -122,7 +122,7 @@ Le code actuel constitue une preuve de concept. Une ouverture en open source per
    $url = "https://api.openai.com/v1/chat/completions";  
    $headers = array(  
        "Content-Type: application/json",  
-       "Authorization: Bearer sk-votre_cle_openai"  
+       "Authorization: Bearer sk-votre_cle_openai"  /* !!! ici !!! */
    );  
 
 ---
