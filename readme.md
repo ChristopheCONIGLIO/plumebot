@@ -34,7 +34,7 @@ Plumebot_v2 est un correcteur orthographique et grammatical alimenté par l'IA g
 
 Quel est le niveau d'avancement du projet ? L'ouverture en open source de ce projet a pour objectif de favoriser la collaboration en vue d'industrialiser et d'améliorer ce POC. Il est important de noter que le projet n'est pas industrialisé et que son maintien reste complexe. Son but principal est de démontrer une preuve de concept et de proposer une alternative à l'existant.
 
-Pourquoi Plumebit est en v2 ? La version "2" propose deux nouvelles fonctionnalités majeures :
+Pourquoi Plumebot est en v2 ? La version "2" propose deux nouvelles fonctionnalités majeures :
 - Une interaction améliorée avec un éditeur de texte unique où le texte est écrit et corrigé en même temps.
 - Un panneau permettant de sauvegarder et de reprendre tous les textes écrits.
 
@@ -62,7 +62,7 @@ Le projet repose sur une pile technologique simple :
 - **Backend** : PHP avec une gestion astucieuse des limitations de stream.
 
 ### COTS  
-Le projet utilise trois composants logiciels prêts à l'emploi :  
+Le projet utilise trois composants logiciels open source :  
 - **Accès externe via un CDN** : Font Awesome (version gratuite 5.x) pour afficher facilement des icônes.  
 - **Intégré dans les sources** : Bibliothèque `diff_match_patch` de Google pour le traitement des différences de texte ([lien GitHub](https://github.com/google/diff-match-patch)).  
 - **Intégré dans les sources** : Police d’écriture fournie par Google.  
@@ -79,7 +79,7 @@ Le projet utilise trois composants logiciels prêts à l'emploi :
 
 ---
 
-## Améliorations Proposées
+## Pistes d'améliorations proposées
 ### Refactorisation du Code
 Le code actuel constitue une preuve de concept. Une ouverture en open source permettra d’industrialiser l’application via :
 1. **Modularisation** :
@@ -93,7 +93,7 @@ Le code actuel constitue une preuve de concept. Une ouverture en open source per
    - Chargement dynamique des entrées d’historique.
 
 3. **Sécurisation** :
-   - La partie API avec le php n'est pas sécuriser c'est un point critique si l'application se développe
+   - La partie API avec le php n'est pas sécurisé c'est un point critique
 
 ---
 
@@ -128,10 +128,7 @@ Le code actuel constitue une preuve de concept. Une ouverture en open source per
 ---
 
 ## Contribution
-Les contributions sont les bienvenues pour améliorer le projet :
-- **Suggestions fonctionnelles**
-- **Correction de bugs**
-- **Optimisation des performances**
+Toutes les contributions sont les bienvenues pour améliorer le projet :
 
 Me contacter :) christophe.coniglio@gmail.com
 
